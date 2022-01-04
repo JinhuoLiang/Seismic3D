@@ -4,7 +4,22 @@ This JavaScript project demonstrates how to use OpenGL based WebGL library Three
 
    https://webglfundamentals.org/webgl/lessons/webgl-setup-and-installation.html
 
-However, the web page was tested using Microsoft's Edge on a Windows 10 machine and no web server was needed (See the screenshot in the Images directory).
+To run the project, follow the following steps:
+
+1. Download the source code for this project from https://github.com/JinhuoLiang/Seismic3D.
+
+2. Install Node.js in your system.
+
+3. In command line, run the following command
+
+   npm install http-server -g
+
+4. In command line, cd to the folder with my "index.html" file and run the following command
+
+   http-server
+
+5. Go to your browser and type "localhost:8080". The seismic3D objects should run now. 
+
 
 The project supports the followings features:
 
